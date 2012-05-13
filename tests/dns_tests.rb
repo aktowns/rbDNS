@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative 'dns'
+require_relative '../lib/dns'
 require 'turn/autorun'
 
 class TestRBDNS < MiniTest::Unit::TestCase
